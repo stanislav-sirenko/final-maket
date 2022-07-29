@@ -1,0 +1,119 @@
+.text-container {
+    padding: 0;
+    margin: 0;
+    font-family: "tt_lakes";
+    color: $text;
+    font-size: 14px;
+  
+    .text-visible-block,
+    .text-visible {
+      padding: 0 16px;
+    }
+  
+    & .hide-element {
+      display: none;
+    }
+  
+    .btn-more-1 {
+      background-color: transparent;
+      border: none;
+      font-family: "tt_lakes";
+      color: $text;
+      font-size: 16px;
+      cursor: pointer;
+      margin-left: 10px;
+    }
+  
+    .read-more-img-1 {
+      margin-left: 32px;
+    }
+  }
+  
+  @media (min-width: 768px) {
+      .block-2 {
+          display: flex;
+          justify-content: space-between;
+          align-items: flex-start;
+          margin: 16px 16px 0 16px;
+          font-size: 14px;
+  
+          .text-container {
+            width: 500px;
+            font-family: "tt_lakes";
+            font-size: 14px;
+        }
+  
+        .text-container .text-visible {
+          display: block;
+        }
+      }
+  }
+  
+  @media (min-width: 880px) {
+      .text-container {
+          width: 500px;
+          font-size: 14px;
+      }
+  }
+  
+  @media (min-width: 1119px) {
+    .text-container .text-end {
+      display: inline;
+    }
+  
+    .button-read-more {
+      display:none;
+    }
+  }
+  
+  .info__logo-cps-320 {
+      margin-top: 27px;
+      margin-bottom: 27px;
+      min-width: -webkit-fill-available;
+  }
+  
+  .info__logo-cps-768,
+  .info__logo-cps-1120 {
+      display: none;
+  }
+  
+  @media (min-width: 768px) {
+      .info__logo-cps-320,
+      .info__logo-cps-1120 {
+          display: none;
+      }
+  
+      .info__logo-cps-768 {
+          display: block;
+          border-radius: 7px;
+          margin-top: 16px;
+          margin-bottom: 27px;
+          max-width: 100%;
+      }
+  
+      .info__block2 {
+          display: flex;
+          justify-content: space-between;
+      }
+  }
+  
+  @media (min-width: 1119px) {
+      .info__logo-cps-320,
+      .info__logo-cps-768 {
+          display: none;
+      }
+  
+      .info__logo-cps-1120 {
+          display: block;
+          border-radius: 7px;
+          margin-top: 27px;
+          margin-right: 27px;
+          margin-bottom: 27px;
+          max-width: 100%;
+      }
+  
+      .info__block2 {
+          display: flex;
+          justify-content: space-between;
+      }
+  }

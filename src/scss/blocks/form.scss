@@ -1,0 +1,115 @@
+.modal-call {
+    position: fixed;
+    overflow-x: hidden;
+    padding: 0;
+    margin: 0 auto;
+    font-family: "tt_lakes";
+    font-size: 16px;
+    min-width: 440px;
+    max-width: 440px;
+    min-height: 100vh;
+    background-color: $bColor;
+    right: 0;
+    transform: translateX(100%);
+    transition: 1s;
+  
+    .modal-call__inner {
+      padding: 20px;
+    
+      &.modal-call__container {
+        width: 320px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        height: 100vh;
+      }
+    }
+  }
+  
+  
+  .form-active {
+    transform: translateX(0%);
+    transition: 1s;
+    box-shadow: 0 0 20px 7px $boxShadow;
+  }
+  
+  .main-content__active {
+      position: absolute;
+      transform: translateX(-440px);
+      transition: 1s;
+      opacity: 0.3;
+      filter: blur(6px);
+  }
+  
+  .sidebar-form__active {
+    transform: translateX(-440px);
+    transition: 1s;
+    opacity: 0.3;
+    filter: blur(6px);
+  }
+  
+  
+  
+  .modal-call__btn {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+  }
+  
+  .modal-call__title {
+    font-size: 24px;
+    margin: 44px 0 24px 0;
+  }
+  
+  .modal-call__title::before {
+    content: " ";
+    background-image: url(../img/highlight.svg);
+    position: absolute;
+    width: 3.5px;
+    height: 35px;
+    left: 0;
+  }
+  
+  .modal-call__form {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  
+  .modal-call__form-item, .modal-chat__form-item {
+    width: 376px;
+    height: 48px;
+    border: 1px solid $dividingLine;
+    border-radius: 8px;
+    font-size: 16px;
+    color: $buttonBg;
+    padding-left: 16px;
+    margin-bottom: 16px;
+  }
+  
+  .textarea {
+    resize: none;
+    height: 120px;
+    padding-top: 16px;
+  }
+  
+  .modal-chat__form-item {
+    display: none;
+  }
+  
+  .modal-call__text {
+    font-size: 14px;
+    color: $textSheer;
+    
+    & a {
+      color: $buttonBg;
+      text-decoration: none;
+    }
+  }
+  
+  .modal-call__form-btn {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    text-align: right;
+  }

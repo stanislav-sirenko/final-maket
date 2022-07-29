@@ -1,0 +1,325 @@
+.technique {
+    max-width: auto;
+    max-height: 234px;
+    background-color: $swiperColor;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    border-top: 1px solid $headerBrBottom;
+  }
+  
+  .technique__text {
+    max-height: 80px;
+    font-family: "tt_lakes";
+    color: $textSheer;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 16px;
+    background: linear-gradient(90deg, $info 1.39%, $bColor 100%);
+    border-top: 1px solid $headerBrBottom;
+  }
+  
+  .swiper-container .swiper {
+    background-color: $swiperColor;
+    padding-bottom: 30px;
+  }
+  
+  @media (min-width: 768px) {
+    .swiper-container .swiper {
+      padding-bottom: 0px;
+    }
+  }
+  
+  .swiper-wrapper {
+    list-style: none;
+    padding-left: 8px;
+  }
+  
+  @media (min-width: 768px) {
+    .swiper-container {
+      max-width: max-content;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .swiper-wrapper {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+  }
+  
+  .swiper .swiper-slide {
+    background-color:$bColor;
+    border: 1px solid $dividingLine;
+    border-radius: 10px;
+    height: 72px;
+    position: relative;
+    width: 240px;
+    margin: 0 8px;
+  }
+  
+  @media (min-width: 768px) {
+    .swiper .swiper-slide {
+      width: 224px;
+      height: 72px;
+      margin-bottom: 16px;
+    }
+  }
+  
+  @media (min-width: 1120px) {
+    .swiper .swiper-slide {
+      width: 240px;
+      height: 72px;
+    }
+  }
+  
+  .swiper-image {
+    margin: auto 5px auto 16px;
+    top: 0;
+    bottom: 0;
+    position: absolute;
+  }
+  
+  .swiper-button {
+    margin: 16px 16px 16px auto;
+    padding: 0;
+    float: right;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .swiper .swiper-pagination-bullet {
+    width: 12px;
+    height: 12px;
+    background-color: $swiperBuller;
+  }
+  
+  @media (min-width: 768px) {
+    .swiper .swiper-pagination-bullet {
+      display: none;
+    }
+  }
+  
+  .technique__brand-icons {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    overflow: scroll;
+    box-shadow: inset -35px 0px 40px 3px $bColor;
+  }
+  
+  .technique__brand-icons > li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 16px;
+    min-width: 240px;
+    max-height: 70px;
+    border: 1px solid $dividingLine;
+    border-radius: 6px;
+    background-color: $bColor;
+  }
+  
+  .technique__brand-icons-logo {
+    padding: 16px;
+  }
+  
+  .btn-more {
+    background-color: transparent;
+    border: none;
+    font-family: "tt_lakes";
+    font-size: 16px;
+    cursor: pointer;
+    padding: 0 0 32px 16px;
+  }
+  
+  .read-more-img {
+    margin-left: 16px;
+  }
+  
+  @media (max-width: 767px) {
+    .btn-more, .technique-brands .read-more-img {
+      display: none;
+    }
+  
+    .technique-types .read-more-img {
+      display: none;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .technique-brands .hide-element {
+      display: none;
+    }
+  }
+  
+  @media (min-width: 968px) {
+    .technique-brands .hide-element:nth-child(-n+6) {
+      display: block;
+    }
+  }
+  
+  @media (min-width: 1290px) {
+    .technique-brands .hide-element:nth-child(-n+8) {
+      display: block;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .swiper .swiper-slide-types {
+      width: 224px;
+      margin-bottom: 16px;
+    }
+  }
+  
+  @media (min-width: 1120px) {
+    .swiper .swiper-slide-types {
+      width: 240px;
+    }
+  }
+  
+  
+  .swiper .swiper-slide-types {
+    background-color:$bColor;
+    border: 1px solid $dividingLine;
+    border-radius: 10px;
+    height: 160px;
+    position: relative;
+    min-width: 240px;
+    margin: 0 8px;
+  }
+  
+  @media (min-width: 768px) {
+    .technique-types .hide-element {
+      display: none;
+    }
+  }
+  
+  @media (min-width: 968px) {
+    .technique-types .hide-element:nth-child(-n+3) {
+      display: block;
+    }
+  }
+  
+  @media (min-width: 1190px) {
+    .technique-types .hide-element:nth-child(-n+4) {
+      display: block;
+    }
+  }
+  
+  .swiper .swiper-slide-types .types {
+    margin: 16px auto auto 16px;
+    top: 0;
+    bottom: 0;
+    position: absolute;
+  }
+  
+  .swiper-button-types {
+    margin: 104px 16px 16px auto;
+    padding: 0;
+    float: right;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .swiper .swiper-slide-price {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color:$bColor;
+    border: 1px solid $dividingLine;
+    border-radius: 10px;
+    height: 200px;
+    position: relative;
+    min-width: 260px;
+    margin: 0 8px;
+  }
+  
+  @media (max-width: 767px) {
+    .swiper-button-price {
+      padding-right: 16px;
+      float: right;
+      background-color: transparent;
+      border: none;
+      cursor: pointer;
+      position: absolute;
+      left: 45%;
+      top: 75%;
+    }
+  
+    .button-price {
+      border: none;
+      background-color: transparent;
+      cursor: pointer;
+    }
+  }
+  
+  .price {
+    color: $textSheer;
+    font-size: 14px;
+    padding: 16px 0 0 16px;
+  }
+  
+  .price-text {
+    font-size: 14px; 
+    color: $text;
+    padding-left: 16px;
+  }
+  
+  @media (min-width: 768px) {
+    .price {
+      display: none;
+    }
+  
+  .technique {
+    max-width: none;
+  }
+  
+    .technique .swiper-container-price {
+      min-width: 100%;
+      padding: 0;
+      overflow: visible;
+    }
+  
+    .technique .swiper-price {
+      padding: 16px;
+      border-radius: 100px;
+    }
+  
+    .swiper .swiper-wrapper-price {
+      display: table;
+      padding: 0;
+    }
+  
+    .swiper .swiper-slide-price {
+      display: table-row;
+      height: 64px;
+    }
+  
+    .swiper .price-text {
+      display: table-cell;
+      border-bottom: 1px solid $dividingLine;
+      vertical-align: middle;
+    }
+  
+    .swiper-button-price {
+      display: table-cell;
+      vertical-align: middle;
+      border-bottom: 1px solid $dividingLine;
+      text-align: right;
+      width: 0;
+    }
+  
+    .button-price {
+      background-color: transparent;
+      border: none;
+      padding: 0 24px;
+      cursor: pointer;
+    }
+  }
