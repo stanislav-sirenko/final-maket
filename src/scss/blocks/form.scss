@@ -115,6 +115,11 @@
     min-width: auto;
   }
 
+  .main-content__active,
+  .main-active {
+    opacity: 0;
+  }
+
   .modal-chat__form-item,
   .modal-call__form-item {
     width: auto;
