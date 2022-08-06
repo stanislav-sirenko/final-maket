@@ -33,7 +33,7 @@
 }
 
 .main-content__active {
-  position: absolute;
+  position: fixed;
   transform: translateX(-440px);
   transition: 1s;
   opacity: 0.3;
