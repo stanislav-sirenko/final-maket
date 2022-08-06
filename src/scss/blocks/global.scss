@@ -1,27 +1,27 @@
 body {
-    min-width: auto;
-    max-height: auto;
-    font-family: "tt_lakes";
-    margin: 0 auto;
-    background-color: $swiperColor;
-    display: flex;
-    justify-content: flex-start;
+  min-width: auto;
+  max-height: auto;
+  font-family: 'tt_lakes';
+  margin: 0 auto;
+  background-color: $swiperColor;
+  display: flex;
+  justify-content: flex-start;
 }
 
 @media (min-width: 767px) {
-    body {
-        min-width: 768px;
-        min-height: 504px;
-    }
+  body {
+    min-width: 768px;
+    min-height: 504px;
+  }
 }
 
 @media (min-width: 1119px) {
-    body {
-        min-width: 1120px;
-        min-height: 545px;
-    }
+  body {
+    min-width: 1120px;
+    min-height: 545px;
+  }
 }
 
 ::-webkit-scrollbar {
-    display: none;
-    }
+  display: none;
+}

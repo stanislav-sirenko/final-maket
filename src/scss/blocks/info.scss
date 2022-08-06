@@ -1,44 +1,43 @@
 .info {
-    background-color: $info;
-    
-    & .info__title {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
+  background-color: $info;
 
-      .info__title-highlight {
-        margin-top: 15px;
-      }
+  & .info__title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 
-      .info__title-service {
-        margin-top: 24px;
-        margin-left: 12px;
-        margin-right: auto;
-        font-size: 28px;
-        font-style: bold;
-        font-family: "tt_lakes";
-      }
+    .info__title-highlight {
+      margin-top: 15px;
     }
+
+    .info__title-service {
+      margin-top: 24px;
+      margin-left: 12px;
+      margin-right: auto;
+      font-size: 28px;
+      font-style: bold;
+      font-family: 'tt_lakes';
+    }
+  }
 }
 
 .info__title-icons {
   display: none;
 }
 
-
 @media (min-width: 1119px) {
-    .info__title-icons {
-        display: flex;
-        align-items: center;
-    }
+  .info__title-icons {
+    display: flex;
+    align-items: center;
+  }
 
-    .info__title-icons-descr {
-        margin-right: 32px;
-        background-color: transparent;
-        border: none;
-    }
+  .info__title-icons-descr {
+    margin-right: 32px;
+    background-color: transparent;
+    border: none;
+  }
 
-    .info__title-icons-text {
-        margin-right: 10px;
-    }
+  .info__title-icons-text {
+    margin-right: 10px;
+  }
 }

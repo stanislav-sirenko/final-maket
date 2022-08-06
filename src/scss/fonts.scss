@@ -1,13 +1,15 @@
 @font-face {
-    font-family: "tt_lakes";
-    src: url("../fonts/TTLakes-Regular.woff") format("woff2"), url("../fonts/TTLakes-Regular.ttf") format("ttf");
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'tt_lakes';
+  src: url('../fonts/TTLakes-Regular.woff') format('woff2'),
+    url('../fonts/TTLakes-Regular.ttf') format('ttf');
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: "tt_lakes";
-    src: url("../fonts/TTLakes-Bold.woff") format("woff2"), url("../fonts/TTLakes-Bold.ttf") format("ttf");
-    font-weight: bold;
-    font-style: bold;
+  font-family: 'tt_lakes';
+  src: url('../fonts/TTLakes-Bold.woff') format('woff2'),
+    url('../fonts/TTLakes-Bold.ttf') format('ttf');
+  font-weight: bold;
+  font-style: bold;
 }
