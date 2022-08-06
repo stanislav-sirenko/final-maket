@@ -39,6 +39,7 @@
 
   .sidebar__menu-list {
     padding: 0;
+    margin: 0;
 
     & > li {
       display: flex;
@@ -46,9 +47,9 @@
       justify-content: space-between;
       align-items: flex-start;
       height: 50%;
-      margin: 32px 24px 0 24px;
+      padding: 32px 24px 0 24px;
       list-style: none;
-      padding: 0;
+      margin: 0;
     }
 
     & a {
@@ -74,8 +75,8 @@
   }
 
   .sidebar__menu-footer {
-    padding: 24px 24px 32px 24px;
-    margin: auto 0 0 0;
+    padding: 0px 24px;
+    margin: auto 0 0;
 
     .sidebar__menu-footer-icons {
       display: flex;
@@ -110,7 +111,7 @@
       a[href^='tel:'] {
         text-decoration: none;
         color: $text;
-        padding: 0 16px 40px 0;
+        padding: 0 16px 10px 0;
         font-size: 24px;
         font-weight: bold;
       }
@@ -172,7 +173,7 @@
   }
 
   .main-active {
-    position: absolute;
+    position: fixed;
     transform: translateX(320px);
     transition: 1s;
     opacity: 0.3;

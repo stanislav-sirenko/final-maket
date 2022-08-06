@@ -90,9 +90,9 @@ function addBtnFormActive(btnFormActive, valueForm, valueDisplay) {
 // ------ FORM CLOSE ------
 
 formClose.addEventListener('click', function () {
-  formAction.classList.remove('form-active')
-  mainActive.classList.remove('main-content__active')
-  sidebarActive.classList.remove('sidebar-form__active')
+  formAction.classList.toggle('form-active')
+  mainActive.classList.toggle('main-content__active')
+  sidebarActive.classList.toggle('sidebar-form__active')
 })
 
 // ------ AUTOFOCUS ------
